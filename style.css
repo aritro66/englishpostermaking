@@ -74,6 +74,7 @@ font-family: 'Glory', sans-serif;
     background-size: 100% 100%;
     z-index: 500;
     display: none;
+    cursor: pointer;
 }
 #navbar{
     background-color: #f2f2f2;
