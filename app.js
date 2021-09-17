@@ -40,14 +40,14 @@ setInterval(()=>{
 moveup.addEventListener("click",()=>{
     window.scrollTo(0,0);
 });
-setInterval(()=>{
-    x+=1;
-    if(x==img_list.length)
-    {
-        x=0;
-    }
-    move();
-},3500);
+// setInterval(()=>{
+//     x+=1;
+//     if(x==img_list.length)
+//     {
+//         x=0;
+//     }
+//     move();
+// },3500);
 right.addEventListener("click",()=>{
     x+=1;
     if(x==img_list.length)
